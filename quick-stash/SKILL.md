@@ -20,6 +20,18 @@ Instantly capture notes, tasks, and links with minimal friction. Automatically f
   - "最近のリンク" / "Recent links" → list saved links
   - "検索: キーワード" → search all captures
 
+## AUTO-EXPAND MODE
+- **TRIGGER**: Note ends with "..." or "、、、"
+- **BEHAVIOR**: 
+  1. Save the original note as-is
+  2. AI expands/completes the thought based on context
+  3. Add structured analysis, alternatives, conclusions
+  4. Format with headers: 元メモ / 補完
+- **USE CASES**:
+  - Incomplete thoughts → full analysis
+  - Quick ideas → detailed breakdown
+  - Observations → actionable insights
+
 ## AUTO-SAVE RULES
 - Any message containing x.com/*/status/* or twitter.com/*/status/* URLs
 - Automatically fetch content via fxtwitter API
@@ -36,8 +48,10 @@ Instantly capture notes, tasks, and links with minimal friction. Automatically f
 ### Saving Notes/Tasks
 1. Parse the input for content and tags
 2. Generate timestamp
-3. Append to `memory/stash/YYYY-MM-DD.md`
-4. Confirm save with preview
+3. **Check for "..." or "、、、" at end → trigger auto-expand**
+4. If expanding: add structured analysis with 元メモ/補完 format
+5. Append to `memory/stash/YYYY-MM-DD.md`
+6. Confirm save with preview (include expansion summary if expanded)
 
 ### Saving Links
 1. Detect URL type:
