@@ -29,9 +29,15 @@ git clone https://github.com/hiroshi75/jim-skills.git ~/.openclaw/workspace/skil
 
 Each skill has its own `SKILL.md` with triggers and instructions. Examples:
 
-- **quick-stash**: Say "メモ: 買い物リスト" or "タスク: レポート提出"
-- **server-dashboard**: Say "サーバー状況" or "server status"
-- **morning-brief**: Say "朝ブリーフィング" or set up a cron job for 8:00 AM
+- **quick-stash**:
+  - 🇯🇵 "メモ: 買い物リスト" / "タスク: レポート提出" / "保存: https://..."
+  - 🇺🇸 "note: shopping list" / "task: submit report" / "save: https://..."
+- **server-dashboard**:
+  - 🇯🇵 "サーバー状況" / "サーバーステータス"
+  - 🇺🇸 "server status" / "server health"
+- **morning-brief**:
+  - 🇯🇵 "朝ブリーフィング" / "モーニングブリーフ"
+  - 🇺🇸 "morning brief" / "daily brief"
 
 ## Language
 
