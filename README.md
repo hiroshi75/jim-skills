@@ -9,6 +9,7 @@ Handy OpenClaw skills by Sheriff Jim.
 | [quick-stash](./quick-stash/) | Quick capture for notes, tasks, and links. Auto-saves X.com posts with full content. |
 | [server-dashboard](./server-dashboard/) | Quick server health overview - CPU, memory, disk, services, and recent errors in one view. |
 | [morning-brief](./morning-brief/) | Comprehensive morning briefing with weather, calendar, server status, and tasks. |
+| [zenn-publish](./zenn-publish/) | Publish articles and books to Zenn.dev via GitHub integration. |
 
 ## Installation
 
@@ -38,6 +39,9 @@ Each skill has its own `SKILL.md` with triggers and instructions. Examples:
 - **morning-brief**:
   - 🇯🇵 "朝ブリーフィング" / "モーニングブリーフ"
   - 🇺🇸 "morning brief" / "daily brief"
+- **zenn-publish**:
+  - 🇯🇵 "Zennに記事を書いて" / "技術記事を書いて"
+  - 🇺🇸 "write a Zenn article" / "publish to Zenn"
 
 ## Language
 
